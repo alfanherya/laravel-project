@@ -1,0 +1,190 @@
+
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+/* start navigation */
+
+.header_area,
+.main-menu,
+.navbar,
+.navbar-brand{
+    padding: 0 2rem 0 0;
+}
+
+.header_area,
+.main-menu,
+.navbar{
+    padding: 1rem 2rem ;
+}
+
+.header_area,
+.main-menu,
+.nav-item,
+.nav-link{
+    text-align: justify;
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area,
+.main-menu,
+.navbar-nav,
+.active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area,
+.main-menu,
+.navbar-nav, a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */
+
+/* Banner Area */
+
+.site-main,
+.site-banner  {
+  background: url('/images/web8.png') no-repeat;
+  background-position-x: 5%;
+  background-position-y: 0%;
+
+}
+.site-main,
+.site-banner,
+.site-title h4{
+    font-size: 1rem;
+}
+
+/* Bagian CSS background video */
+.fullscreen-bg {
+    position: relative;
+    width: 570px;
+    height: 540px;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.bg-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+@media (min-aspect-ratio: 16/9) {
+    .bg-video {
+        height: 300%;
+        top: -100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .bg-video {
+        width: 300%;
+        left: -100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('/images/video1.mp4') center center / cover no-repeat;
+    }
+
+    .bg-video {
+        display: none;
+    }
+
+
+
+
+/* --------------------------- */
+
+.site-main,
+.site-banner,
+.site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main,
+.site-banner,
+.site-title h3::after{
+    content: "  ";
+    height: 2px;
+    width: 18vw;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(10px);
+}
+
+.site-main,
+.site-banner,
+.site-title h1{
+    font-size: 5rem;
+}
+
+
+.site-main,
+.site-banner,
+.banner-image >img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+/* End Banner Area */
+
+/* start about area */
+.site-main,
+.about-area{
+    padding: 8rem, 5rem;
+}
+
+.site-main,
+.about-area,
+.about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 2px;
+}
+
+.site-main,
+.about-area,
+.about-title,
+.paragraph > p {
+    padding: .4rem 0;
+}
+
+/* end about area */
+
+/* start brand area css */
+.site-main,
+.brand-area{
+    padding: 8rem 5rem;
+    margin-bottom: 4rem;
+}
+
+/*CSS Form Pendaftaran */
+
+.site-banner, .container, h1{
+    background-color: crimson;
+    text-align: center;
+}
+
+
+
+
+/* End CSS Form Pendaftaran */
