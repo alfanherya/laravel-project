@@ -1,0 +1,42 @@
+@startuml Diagram
+title "Diagram Blue print"
+box FrontEnd
+participant "Front End" as a 
+end box
+box BackEnd
+participant "Api node js" as b
+participant "DataBase mysql" as c
+end box
+
+a -> b: Request to back end by http
+activate b
+===Request Portofolio==== 
+b -> c : Get Request \nExample: http://localhost:3000/api/portofolio
+note right of b #LightGreen
+payload Request
+{
+    "id": 1,
+    "name": "Portofolio"
+}
+end note
+deactivate b
+
+activate c
+c -> b : Response from back end \nExample: http://localhost:3000/api/portofolio
+note left of c #LightGreen
+payload Response
+{
+    "id": 1,
+    "description": "Portofolio adalah sebuah aplikasi 
+    yang dibuat untuk menampung data-data yang
+    dibutuhkan oleh sebuah perusahaan",
+}
+end note
+deactivate c
+activate b
+b-> a : Response from back end to Front end with response \nDescription\nExample: http://localhost:3000/api/portofolio
+deactivate b
+===end Request Portofolio===
+
+
+@enduml
