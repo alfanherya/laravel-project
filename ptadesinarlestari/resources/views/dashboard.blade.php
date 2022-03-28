@@ -382,13 +382,13 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <div class="section-title" data-aos="fade-right">
+            {{-- <div class="section-title" data-aos="fade-right">
               <h2>Testimonials</h2>
               @foreach ($testimoni as $item)
                   <p>{{ $item ['testimoni'] }}</p>
               @endforeach
               {{-- <p>Magnam dolores commodi suscipit uisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
-            </div>
+            </div> --}}
           </div>
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
 
