@@ -25,16 +25,25 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'v8.6.10',
-    'version' => '8.6.10.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '23f32e2aa5b94e4b566c919e26e49826f2b8d320',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
   array (
+    'almasaeed2010/adminlte' => 
+    array (
+      'pretty_version' => 'v3.2.0',
+      'version' => '3.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'bd4d9c72931f1dd28601b6bfb387554a381ad540',
+    ),
     'asm89/stack-cors' => 
     array (
       'pretty_version' => 'v2.0.5',
@@ -437,6 +446,15 @@ private static $installed = array (
         0 => 'v8.78.1',
       ),
     ),
+    'jeroennoten/laravel-adminlte' => 
+    array (
+      'pretty_version' => 'v3.8.1',
+      'version' => '3.8.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ad59de64afcfb37d8348f0b175d5074519b8c2e8',
+    ),
     'kodova/hamcrest-php' => 
     array (
       'replaced' => 
@@ -455,12 +473,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v8.6.10',
-      'version' => '8.6.10.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '23f32e2aa5b94e4b566c919e26e49826f2b8d320',
     ),
     'laravel/sail' => 
     array (
@@ -497,6 +515,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'a9ddee4761ec8453c584e393b393caff189a3e42',
+    ),
+    'laravel/ui' => 
+    array (
+      'pretty_version' => 'v3.4.2',
+      'version' => '3.4.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e01198123f7f4369d13c1f83a897c3f5e97fc9f4',
     ),
     'league/commonmark' => 
     array (
@@ -836,8 +863,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0|2.0',
-        1 => '1.0.0 || 2.0.0 || 3.0.0',
+        0 => '1.0.0 || 2.0.0 || 3.0.0',
+        1 => '1.0|2.0',
       ),
     ),
     'psr/simple-cache' => 

@@ -21,3 +21,7 @@ Route::get('/', function () {
 // to get external API will do the route below
 Route::get("testimoni", [TestiController::class,'index'])->name('dashboard');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
