@@ -14,5 +14,12 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.1.1",
+        "@types/jquery-knob": "^1.2.33",
+        "chart.js": "^3.7.1",
+        "jquery-mapael": "^2.2.0",
+        "knob": "^1.1.0"
     }
 }

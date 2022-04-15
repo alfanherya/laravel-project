@@ -20,8 +20,12 @@ Route::get('/', function () {
 
 // to get external API will do the route below
 Route::get("testimoni", [TestiController::class,'index'])->name('dashboard');
+// to store into database, and can consume to API external web
+Route::post('add',[TestiController::class,'addTesti']);
 
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::view('/paneltestimoni', 'paneltestimoni');
+Route::view('/visimisi', 'visimisi');
